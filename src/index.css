@@ -8,3 +8,20 @@
     font-family: Hack Nerd Font ;
     font-weight:500;
 }
+button {
+  background-color: #343834; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 20px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline */
+  font-size: 16px; /* Increase font size */
+  margin: 2px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #4e606f; /* Darker green on hover */
+}
